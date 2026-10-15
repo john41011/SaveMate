@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 카메라 권한 -->
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 갤러리 접근 -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <!-- 인터넷 (Firebase, OCR API) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaveMate"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.scan.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.scan.ConfirmReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.scan.ReceiptDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.scan.EditReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.scan.ImageViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.profile.CategoryBudgetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+        <activity
+            android:name=".ui.scan.ManualInputActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SaveMate" />
+    </application>
+
+</manifest>

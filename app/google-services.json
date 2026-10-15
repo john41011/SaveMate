@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073370782636",
+    "project_id": "savemate-ff079",
+    "storage_bucket": "savemate-ff079.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073370782636:android:38c3e8f1bf07f42ea03809",
+        "android_client_info": {
+          "package_name": "kr.ac.baekseok.savemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaVmE9VWb4MrQ5LjDn276ByekBDCGKSgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

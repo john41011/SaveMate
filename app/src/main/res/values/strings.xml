@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SaveMate</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">홈</string>
+    <string name="nav_scan">스캔</string>
+    <string name="nav_statistics">통계</string>
+    <string name="nav_challenge">챌린지</string>
+    <string name="nav_profile">프로필</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">이번 달 지출</string>
+    <string name="home_total_spending">총 지출</string>
+    <string name="home_recent_receipts">최근 영수증</string>
+    <string name="home_no_data">아직 등록된 영수증이 없습니다</string>
+
+    <!-- Scan Screen -->
+    <string name="scan_title">영수증 스캔</string>
+    <string name="scan_camera">카메라로 촬영</string>
+    <string name="scan_gallery">갤러리에서 선택</string>
+    <string name="scan_processing">영수증을 분석 중입니다…</string>
+
+    <!-- Confirm Screen -->
+    <string name="confirm_title">정보 확인</string>
+    <string name="confirm_store_name">상호명</string>
+    <string name="confirm_date">날짜</string>
+    <string name="confirm_total_amount">총액</string>
+    <string name="confirm_items">품목</string>
+    <string name="confirm_save">저장</string>
+    <string name="confirm_cancel">취소</string>
+
+    <!-- Statistics Screen -->
+    <string name="stats_title">지출 통계</string>
+    <string name="stats_monthly">월별 지출</string>
+    <string name="stats_category">카테고리별</string>
+
+    <!-- Challenge Screen -->
+    <string name="challenge_title">챌린지</string>
+    <string name="challenge_ranking">이번 달 랭킹</string>
+    <string name="challenge_your_rank">내 순위</string>
+
+    <!-- Common -->
+    <string name="common_won">원</string>
+    <string name="common_save">저장</string>
+    <string name="common_cancel">취소</string>
+    <string name="common_edit">수정</string>
+    <string name="common_delete">삭제</string>
+    <string name="common_confirm">확인</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_required">카메라 권한이 필요합니다</string>
+    <string name="permission_gallery_required">갤러리 접근 권한이 필요합니다</string>
+
+    <!-- Categories -->
+    <string name="category_food">식비</string>
+    <string name="category_transport">교통</string>
+    <string name="category_shopping">쇼핑</string>
+    <string name="category_entertainment">여가</string>
+    <string name="category_etc">기타</string>
+</resources>

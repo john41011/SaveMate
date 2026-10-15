@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 외부 원 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <size
+                android:width="80dp"
+                android:height="80dp" />
+        </shape>
+    </item>
+    <!-- 내부 원 -->
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/primary" />
+        </shape>
+    </item>
+</layer-list>
